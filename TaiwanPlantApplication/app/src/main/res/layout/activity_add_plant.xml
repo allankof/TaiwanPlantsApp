@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--新增紀錄-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#510398"
+    android:weightSum="1"
+    tools:context=".activity.AddPlantActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/add_toolbar_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:logo="@drawable/add_tittle_icon"
+        app:title="@string/add_title_str" />
+
+    <LinearLayout
+        style="@style/AppTheme.AddPlantLinearLayout">
+        <TextView
+            android:id="@+id/type_tv_id"
+            style="@style/AppTheme.AddPlantTextView"
+            android:text="@string/add_type_str" />
+
+        <Spinner
+            android:id="@+id/add_spinner_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_marginStart="8dp"
+             />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/AppTheme.AddPlantLinearLayout">
+        <TextView
+            android:id="@+id/name_tv_id"
+            style="@style/AppTheme.AddPlantTextView"
+            android:text="@string/add_name_str" />
+
+        <EditText
+            android:id="@+id/name_edit_id"
+            style="@style/AppTheme.addPlantEdit"
+            android:layout_weight="0.5"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/AppTheme.AddPlantLinearLayout">
+
+        <TextView
+            android:id="@+id/family_tv_id"
+            style="@style/AppTheme.AddPlantTextView"
+            android:text="@string/add_family_str" />
+
+        <EditText
+            android:id="@+id/family_edit_id"
+            style="@style/AppTheme.addPlantEdit"
+            android:layout_weight="0.5"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/AppTheme.AddPlantLinearLayout">
+        <TextView
+            android:id="@+id/location_tv_id"
+            style="@style/AppTheme.AddPlantTextView"
+            android:text="@string/add_location_str" />
+
+        <EditText
+            android:id="@+id/location_edit_id"
+            style="@style/AppTheme.addPlantEdit"
+            android:layout_weight="0.5"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/AppTheme.AddPlantLinearLayout">
+        <TextView
+            android:id="@+id/tude_tv_id"
+            style="@style/AppTheme.AddPlantTextView"
+            android:text="@string/add_tude_str" />
+
+        <EditText
+            android:id="@+id/tude_edit_id"
+            style="@style/AppTheme.addPlantEdit"
+            android:layout_weight="0.5"
+            android:ems="10"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/AppTheme.AddPlantLinearLayout">
+        <TextView
+            android:id="@+id/num_tv_id"
+            style="@style/AppTheme.AddPlantTextView"
+            android:text="@string/add_number_str" />
+
+        <EditText
+            android:id="@+id/num_edit_id"
+            style="@style/AppTheme.addPlantEdit"
+            android:layout_weight="0.5"
+            android:ems="10"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/AppTheme.AddPlantLinearLayout">
+        <TextView
+            android:id="@+id/date_tv_id"
+            style="@style/AppTheme.AddPlantTextView"
+            android:text="@string/add_time_str" />
+
+        <EditText
+            android:id="@+id/date_edit_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:ems="10"
+            android:inputType="date" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/AppTheme.AddPlantLinearLayout"
+        android:layout_weight="0.32"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/add_des_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:counterEnabled="true"
+            app:counterMaxLength="72">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/add_des_str"
+                android:textStyle="bold"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.08"
+        android:layout_marginTop="6dp"
+        android:weightSum="1"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/add_btn_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="@string/add_add_str" />
+
+        <Button
+            android:id="@+id/clean_btn_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="12dp"
+            android:text="@string/add_clean_str" />
+    </LinearLayout>
+</LinearLayout>

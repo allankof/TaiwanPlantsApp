@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "293669576794",
+    "firebase_url": "https://taiwanplantapp.firebaseio.com",
+    "project_id": "taiwanplantapp",
+    "storage_bucket": "taiwanplantapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293669576794:android:329d09a67d93c311ff7863",
+        "android_client_info": {
+          "package_name": "com.example.taiwanplantapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "293669576794-idb1cvfd1oeo7136nrn1f4tec1shmpfk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.taiwanplantapplication",
+            "certificate_hash": "316b31397f47ef55bff8853f322240102e4092c0"
+          }
+        },
+        {
+          "client_id": "293669576794-sqf1r90gn42o0tgjgsgkqmvgr6c0db40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAknyiSw22kwwcz0-mIAwodMykWKvUa-7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293669576794-sqf1r90gn42o0tgjgsgkqmvgr6c0db40.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

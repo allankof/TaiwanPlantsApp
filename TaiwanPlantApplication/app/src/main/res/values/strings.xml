@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">TaiwanPlantApplication</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--RadioButton Spinner-->
+    <string name="rb_gymnosperm_str">裸子植物</string>
+    <string name="rb_angiosperm_str">被子植物</string>
+    <string name="rb_fern_str">蕨類</string>
+    <string name="rb_other_str">其他</string>
+
+    <!--AddPlant-->
+    <string name="add_title_str">新增紀錄</string>
+    <string name="add_type_str">請選擇類別 :</string>
+    <string name="add_name_str">名稱 :</string>
+    <string name="add_family_str">科名 :</string>
+    <string name="add_time_str">日期 :</string>
+    <string name="add_location_str">地點 :</string>
+    <string name="add_tude_str">經緯度 :</string>
+    <string name="add_height_str">海拔高度 :</string>
+    <string name="add_number_str">族群數量約 :</string>
+    <string name="add_des_str">說明 :</string>
+    <string name="add_clean_str">清除重填</string>
+    <string name="add_add_str">確定新增</string>
+
+    <!--PlantsInfo-->
+    <string name="plants_info_str">null</string>
+
+    <!--draw menu-->
+    <string name="menu_add">新增紀錄</string>
+    <string name="menu_myData">我的紀錄</string>
+    <string name="menu_search">搜尋</string>
+    <string name="menu_import">相機</string>
+    <string name="menu_setting">設定</string>
+    <string name="menu_account">登入/註冊</string>
+
+</resources>
