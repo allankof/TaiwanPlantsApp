@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--ViewPager圖片-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/vp_imgItem_id"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:scaleType="centerCrop"
+        android:rotation="90"
+        android:src="@drawable/ic_waite_refresh_24">
+
+    </ImageView>
+
+</LinearLayout>

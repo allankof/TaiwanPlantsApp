@@ -16,29 +16,48 @@
     <string name="rb_fern_str">蕨類</string>
     <string name="rb_other_str">其他</string>
 
-    <!--AddPlant-->
-    <string name="add_title_str">新增紀錄</string>
-    <string name="add_type_str">請選擇類別 :</string>
-    <string name="add_name_str">名稱 :</string>
-    <string name="add_family_str">科名 :</string>
-    <string name="add_time_str">日期 :</string>
-    <string name="add_location_str">地點 :</string>
-    <string name="add_tude_str">經緯度 :</string>
-    <string name="add_height_str">海拔高度 :</string>
-    <string name="add_number_str">族群數量約 :</string>
-    <string name="add_des_str">說明 :</string>
-    <string name="add_clean_str">清除重填</string>
-    <string name="add_add_str">確定新增</string>
+    <!--Add/InfoPlant-->
+    <string name="title_str">"  "新增紀錄</string>
+    <string name="type_add_str">請選擇類別 :</string>
+    <string name="name_str">名稱 :</string>
+    <string name="family_str">科名 :</string>
+    <string name="date_str">日期 :</string>
+    <string name="location_str">地點 :</string>
+    <string name="lng_str">經度 :</string>
+    <string name="lat_str">緯度 :</string>
+    <string name="height_str">海拔高度 :</string>
+    <string name="number_str">族群數量 :</string>
+    <string name="des_str">說明 :</string>
+    <string name="clean_str">取消</string>
+    <string name="add_str">確定新增</string>
 
     <!--PlantsInfo-->
-    <string name="plants_info_str">null</string>
+    <string name="plants_info_str">"  "植物名稱</string>
 
     <!--draw menu-->
-    <string name="menu_add">新增紀錄</string>
-    <string name="menu_myData">我的紀錄</string>
-    <string name="menu_search">搜尋</string>
-    <string name="menu_import">相機</string>
-    <string name="menu_setting">設定</string>
-    <string name="menu_account">登入/註冊</string>
+    <string name="draw_add">新增紀錄</string>
+    <string name="draw_myData">我的紀錄</string>
+    <string name="draw_search">搜尋資料</string>
+    <string name="draw_import">相機</string>
+    <string name="draw_delete">刪除資料</string>
+    <string name="draw_setting">設定</string>
+    <string name="draw_account">登入/註冊</string>
+
+    <!--CameraDialog-->
+    <string name="dialog_title">相機</string>
+    <string name="dialog_msg">是否開啟相機</string>
+    <string name="dialog_ok">確認</string>
+    <string name="dialog_cancel">取消</string>
+    <!-- Open Camera or Album -->
+    <string name="open_camera">開啟相機</string>
+    <string name="open_album">開啟相簿</string>
+    <string name="delete_date">刪除資料</string>
+
+    <string-array name="type_atr">
+        <item>裸子植物</item>
+        <item>被子植物</item>
+        <item>蕨類</item>
+        <item>其他</item>
+    </string-array>
 
 </resources>

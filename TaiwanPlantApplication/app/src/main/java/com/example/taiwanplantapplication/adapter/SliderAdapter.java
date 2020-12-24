@@ -5,6 +5,9 @@ import android.support.v4.view.PagerAdapter;
 import android.view.View;
 import android.view.ViewGroup;
 
+/**
+ * 未使用
+ */
 public class SliderAdapter extends PagerAdapter {
 
     @Override

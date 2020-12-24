@@ -69,4 +69,12 @@
         <item name="android:textSize">18sp</item>
     </style>
 
+    <!--activity_plants_info-->
+    <style name="PlantInfoTheme_TextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
 </resources>

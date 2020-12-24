@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/myCamera_id"
+    android:weightSum="1"
+    tools:context=".activity.CameraActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/camera_toolbar_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:logo="@drawable/add_tittle_icon"
+        app:title="儲存圖片" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/camera_img_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:weightSum="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/camera_btn_cancel_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="放棄">
+
+        </Button>
+
+        <Button
+            android:id="@+id/camera_btn_ok_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="儲存">
+
+        </Button>
+
+    </LinearLayout>
+</LinearLayout>

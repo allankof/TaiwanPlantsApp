@@ -26,7 +26,7 @@
                 android:layout_marginTop="40dp"/>
 
             <EditText
-                android:id="@+id/editText2"
+                android:id="@+id/reg_etUser_id"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -36,7 +36,7 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/editText3"
+                android:id="@+id/reg_etPass_id"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -46,7 +46,7 @@
                 android:textStyle="bold"/>
 
             <EditText
-                android:id="@+id/editText5"
+                android:id="@+id/reg_etPass2_id"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -56,7 +56,7 @@
                 android:textStyle="bold"/>
 
             <EditText
-                android:id="@+id/editText4"
+                android:id="@+id/reg_etEmail_id"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -66,7 +66,7 @@
                 android:textStyle="bold"/>
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/reg_btn_id"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"

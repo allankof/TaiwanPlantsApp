@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--未使用-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sel_photo_layout_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".activity.SelectedPhotoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="0.9">
+
+        <ImageView
+            android:id="@+id/albums_sel_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:weightSum="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/sel_btn_cancel_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="放棄">
+        </Button>
+
+        <Button
+            android:id="@+id/sel_btn_ok_id"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:text="儲存">
+        </Button>
+
+    </LinearLayout>
+</LinearLayout>
